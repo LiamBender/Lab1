@@ -10,7 +10,6 @@ package aod.lab1;
  */
 
 public class LinkedList<T> implements List<T> {
-	
 	// Instansvariabler
 	private Node<T> head;
 	private int size;
