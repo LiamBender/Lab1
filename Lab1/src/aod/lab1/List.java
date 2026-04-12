@@ -19,7 +19,7 @@ public interface List<T> {
 	T get(int index); // Hämtar datan på den specifika platsen
 	
 	void set(T data, int index); // Ändrar datan på den specifika platsen
-	// 1
+	
 	void remove(int index); // Tar bort datan på den specifika platsen
 	
 	void remove(); // Tar bort datan på den platsen längst bak
