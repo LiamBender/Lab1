@@ -93,7 +93,6 @@ public class LinkedList<T> implements List<T> {
 		size++;
 	}
 	
-	@Override
 	public void remove() {
 		if (size == 0) {
 			throw new IndexOutOfBoundsException();
