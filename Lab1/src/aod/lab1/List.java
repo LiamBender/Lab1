@@ -20,6 +20,8 @@ public interface List<T> {
 	
 	void set(T data, int index); // Ändrar datan på den specifika platsen
 	
+	void remove(); // Tar bort datan på den platsen längst bak
+	
 	void remove(int index); // Tar bort datan på den specifika platsen
 	
 	int size(); // Ger dig antalet noder
