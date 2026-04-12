@@ -22,8 +22,6 @@ public interface List<T> {
 	
 	void remove(int index); // Tar bort datan på den specifika platsen
 	
-	void remove(); // Tar bort datan på den platsen längst bak
-	
 	int size(); // Ger dig antalet noder
 	
 	void clear(); // Tar bort allt
